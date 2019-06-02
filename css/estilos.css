@@ -149,7 +149,8 @@ h2
   margin-left: 8.4em;
 }
 
-.project-url {
+.project-url,
+.activity-url {
   text-decoration: none;
   color: #d35d33;
   border: 1px solid #d35d33;
@@ -158,7 +159,8 @@ h2
   font-size: .8em;
 }
 
-.project-url:hover {
+.project-url:hover,
+.activity-url:hover {
   color: white;
   background-color: #d35d33;
 }
@@ -526,6 +528,7 @@ h1
   .project-details
   {
     width: auto;
+    margin-bottom: .5em;
   }
   .project-title
   {
@@ -652,6 +655,10 @@ h1
   section h1 {
     font-size: 1.2em;
   }
+  .form-email input
+  {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width:320px)
@@ -679,7 +686,7 @@ h1
   }
   .form-email input
   {
-    width: 40%;
+    width: 45%;
   }
   .form-email button
   {
