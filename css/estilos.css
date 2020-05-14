@@ -559,6 +559,7 @@ h1
     width: 100vw;
     background-color: rgba(26, 50, 99, .8);
     opacity: 0;
+    animation-name: none;
     clip-path: circle(10px at 25px 25px);
     transition: all .5s ease-in-out;
   }
