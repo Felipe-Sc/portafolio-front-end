@@ -549,20 +549,25 @@ h1
   .menu
   {
     position: fixed;
-    background: rgba(211, 93, 51, .9);
     z-index: 3;
     top: 0;
-    left: -100vw;
-    width: 100vw;
     bottom: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s;
+    width: 100vw;
+    background-color: rgba(26, 50, 99, .8);
+    opacity: 0;
+    clip-path: circle(10px at 25px 25px);
+    transition: all .5s ease-in-out;
   }
+
   .menu.is-active
   {
-    left: 0;
+    clip-path: circle(75%);
+    opacity: 1;
+    background-color: rgba(211, 93, 51, .9);
   }
 
   .project
