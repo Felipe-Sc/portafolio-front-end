@@ -170,6 +170,7 @@ figure
 .hero
 {
   height: 300px;
+  min-height: 135px;
   background: linear-gradient(to left, var(--orange), var(--blue));
   color: white;
   margin-top: 0px;
