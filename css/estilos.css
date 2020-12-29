@@ -215,6 +215,12 @@ figure
   font-size: 18px;
 }
 
+.link
+{
+  color: var(--orange);
+  text-decoration: none;
+}
+
 .project-title
 {
   font-size: 25px;
